@@ -1,4 +1,5 @@
 📘 Overview
+
 This lab focused on exploring how environment variables, Set-UID programs, and various program execution methods (e.g., system(), execve()) can influence software behavior and introduce security risks. Using the SEED Labs framework, we analyzed how attackers can manipulate Unix/Linux system behavior through environment variables, affecting program control, privileges, and system integrity.
 
 🧪 Lab Tasks Covered
