@@ -3,6 +3,7 @@
 This lab focused on exploring how environment variables, Set-UID programs, and various program execution methods (e.g., system(), execve()) can influence software behavior and introduce security risks. Using the SEED Labs framework, we analyzed how attackers can manipulate Unix/Linux system behavior through environment variables, affecting program control, privileges, and system integrity.
 
 🧪 Lab Tasks Covered
+
 Task 1: Manipulating and understanding environment variables using printenv, export, and unset.
 
 Task 2: Analyzing environment variable inheritance from parent to child processes.
@@ -22,6 +23,7 @@ Task 8: Comparing the security of system() vs. execve() in Set-UID contexts, and
 Task 9: Identifying capability leaking, where privileges remain after setuid() due to open file descriptors.
 
 🎓 What I Learned
+
 Through hands-on experimentation, I gained a deep understanding of:
 
 The security implications of environment variables in privileged and non-privileged execution contexts.
@@ -35,6 +37,7 @@ The importance of privilege management, especially when handling files and user 
 How dynamic linker behavior and shared library loading (LD_PRELOAD) can create attack vectors if not restricted.
 
 🌐 Real-World Applications
+
 DevSecOps & Systems Programming: Helps build secure software that doesn't expose unnecessary privileges or paths to exploitation.
 
 Penetration Testing: Skills in privilege escalation, environment exploitation, and injection attacks are foundational for red teaming and vulnerability assessments.
