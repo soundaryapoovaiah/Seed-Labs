@@ -1,6 +1,7 @@
 # Seed-Labs
 
 Labs Included
+
 ✅ Cross-Site Scripting (XSS) Attack Lab
 Explored stored and self-propagating XSS attacks using the Elgg platform.
 
